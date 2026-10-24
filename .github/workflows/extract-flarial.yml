@@ -20,8 +20,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           shopt -s nullglob
+
           parts=(Flarial_src.zip.part-*)
 
           if [ "${#parts[@]}" -eq 0 ]; then
@@ -29,8 +29,9 @@ jobs:
             exit 1
           fi
 
-          printf '%s\n' "${parts[@]}" | sort -V > /tmp/part-list.txt
+          printf '%s\n' "${parts[@]}" | LC_ALL=C sort > /tmp/part-list.txt
 
+          : > /tmp/Flarial_src.zip
           while IFS= read -r part; do
             cat "$part" >> /tmp/Flarial_src.zip
           done < /tmp/part-list.txt
@@ -41,25 +42,29 @@ jobs:
           unzip -tq /tmp/Flarial_src.zip
 
       - name: Extract source files
+        shell: bash
         run: |
           set -euo pipefail
 
           mkdir -p /tmp/flarial-extracted
           unzip -oq /tmp/Flarial_src.zip -d /tmp/flarial-extracted
 
-          # Merge extracted files into the repository root.
+          # Remove nested Git repositories and metadata.
+          find /tmp/flarial-extracted -name .git -prune -exec rm -rf -- {} +
+
+          # Copy extracted files into the repository.
           cp -a /tmp/flarial-extracted/. .
 
-          # Remove temporary uploaded chunks and the reconstructed archive.
+          # Remove uploaded archive chunks.
           rm -f Flarial_src.zip.part-*
 
       - name: Commit extracted source
+        shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
 
