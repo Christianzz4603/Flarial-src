@@ -1,0 +1,248 @@
+.class public Lcom/applovin/impl/v0$b;
+.super Ljava/lang/Object;
+.source "r8-map-id-21ef63d20ac644624de6f720e69c3009529494b67943a37c0f29f475e0af6e0c"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/applovin/impl/v0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field private a:Z
+
+.field private b:Z
+
+.field private c:Z
+
+.field private d:Lcom/applovin/sdk/AppLovinCmpError;
+
+.field private e:Lcom/applovin/impl/t0;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/applovin/impl/t0;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/applovin/impl/v0$b;->e:Lcom/applovin/impl/t0;
+
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+.end method
+
+.method public static synthetic a(Lcom/applovin/impl/v0$b;)Lcom/applovin/impl/t0;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/applovin/impl/v0$b;->e:Lcom/applovin/impl/t0;
+
+    .line 2
+    .line 3
+    return-object p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+.end method
+
+
+# virtual methods
+.method public a(Lcom/applovin/impl/t0;)V
+    .locals 0
+
+    .line 6
+    iput-object p1, p0, Lcom/applovin/impl/v0$b;->e:Lcom/applovin/impl/t0;
+
+    return-void
+.end method
+
+.method public a(Lcom/applovin/sdk/AppLovinCmpError;)V
+    .locals 0
+
+    .line 5
+    iput-object p1, p0, Lcom/applovin/impl/v0$b;->d:Lcom/applovin/sdk/AppLovinCmpError;
+
+    return-void
+.end method
+
+.method public a()Z
+    .locals 0
+
+    .line 4
+    iget-boolean p0, p0, Lcom/applovin/impl/v0$b;->c:Z
+
+    return p0
+.end method
+
+.method public b()Z
+    .locals 0
+
+    .line 1
+    iget-boolean p0, p0, Lcom/applovin/impl/v0$b;->a:Z
+
+    .line 2
+    .line 3
+    return p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public c()V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    iput-boolean v0, p0, Lcom/applovin/impl/v0$b;->c:Z
+
+    .line 3
+    .line 4
+    iput-boolean v0, p0, Lcom/applovin/impl/v0$b;->a:Z
+
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public d()V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    iput-boolean v0, p0, Lcom/applovin/impl/v0$b;->b:Z
+
+    .line 3
+    .line 4
+    iput-boolean v0, p0, Lcom/applovin/impl/v0$b;->a:Z
+
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method

@@ -1,0 +1,185 @@
+.class public interface abstract Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;
+.super Ljava/lang/Object;
+.source "r8-map-id-21ef63d20ac644624de6f720e69c3009529494b67943a37c0f29f475e0af6e0c"
+
+
+# static fields
+.field public static final microsoft:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+.field public static final microsoftAppPolicies:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+.field public static final microsoftCaVersion:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+.field public static final microsoftCertTemplateV1:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+.field public static final microsoftCertTemplateV2:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+.field public static final microsoftCrlNextPublish:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+.field public static final microsoftPrevCaCertHash:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 2
+    .line 3
+    const-string v1, "1.3.6.1.4.1.311"
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoft:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 9
+    .line 10
+    new-instance v1, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 11
+    .line 12
+    const-string v2, "20.2"
+
+    .line 13
+    .line 14
+    invoke-direct {v1, v0, v2}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Lorg/spongycastle/asn1/ASN1ObjectIdentifier;Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    sput-object v1, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoftCertTemplateV1:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 18
+    .line 19
+    new-instance v1, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 20
+    .line 21
+    const-string v2, "21.1"
+
+    .line 22
+    .line 23
+    invoke-direct {v1, v0, v2}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Lorg/spongycastle/asn1/ASN1ObjectIdentifier;Ljava/lang/String;)V
+
+    .line 24
+    .line 25
+    .line 26
+    sput-object v1, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoftCaVersion:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 27
+    .line 28
+    new-instance v1, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 29
+    .line 30
+    const-string v2, "21.2"
+
+    .line 31
+    .line 32
+    invoke-direct {v1, v0, v2}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Lorg/spongycastle/asn1/ASN1ObjectIdentifier;Ljava/lang/String;)V
+
+    .line 33
+    .line 34
+    .line 35
+    sput-object v1, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoftPrevCaCertHash:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 36
+    .line 37
+    new-instance v1, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 38
+    .line 39
+    const-string v2, "21.4"
+
+    .line 40
+    .line 41
+    invoke-direct {v1, v0, v2}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Lorg/spongycastle/asn1/ASN1ObjectIdentifier;Ljava/lang/String;)V
+
+    .line 42
+    .line 43
+    .line 44
+    sput-object v1, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoftCrlNextPublish:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 45
+    .line 46
+    new-instance v1, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 47
+    .line 48
+    const-string v2, "21.7"
+
+    .line 49
+    .line 50
+    invoke-direct {v1, v0, v2}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Lorg/spongycastle/asn1/ASN1ObjectIdentifier;Ljava/lang/String;)V
+
+    .line 51
+    .line 52
+    .line 53
+    sput-object v1, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoftCertTemplateV2:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 54
+    .line 55
+    new-instance v1, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 56
+    .line 57
+    const-string v2, "21.10"
+
+    .line 58
+    .line 59
+    invoke-direct {v1, v0, v2}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Lorg/spongycastle/asn1/ASN1ObjectIdentifier;Ljava/lang/String;)V
+
+    .line 60
+    .line 61
+    .line 62
+    sput-object v1, Lorg/spongycastle/asn1/microsoft/MicrosoftObjectIdentifiers;->microsoftAppPolicies:Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 63
+    .line 64
+    return-void
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+.end method

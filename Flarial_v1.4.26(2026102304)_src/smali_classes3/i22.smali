@@ -1,0 +1,11 @@
+.class public interface abstract Li22;
+.super Ljava/lang/Object;
+.source "r8-map-id-21ef63d20ac644624de6f720e69c3009529494b67943a37c0f29f475e0af6e0c"
+
+# interfaces
+.implements Lw22;
+
+
+# virtual methods
+.method public abstract f(Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Boolean;Ljava/lang/Comparable;Lop5;Ljava/lang/Object;Lmm0;Ljava/lang/Integer;)Ljava/lang/Object;
+.end method

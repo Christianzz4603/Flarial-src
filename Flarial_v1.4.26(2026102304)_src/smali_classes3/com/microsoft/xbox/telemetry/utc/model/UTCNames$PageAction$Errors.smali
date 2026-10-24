@@ -1,0 +1,63 @@
+.class public Lcom/microsoft/xbox/telemetry/utc/model/UTCNames$PageAction$Errors;
+.super Ljava/lang/Object;
+.source "r8-map-id-21ef63d20ac644624de6f720e69c3009529494b67943a37c0f29f475e0af6e0c"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/microsoft/xbox/telemetry/utc/model/UTCNames$PageAction;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Errors"
+.end annotation
+
+
+# static fields
+.field public static final Close:Ljava/lang/String; = "Errors - Close error screen"
+
+.field public static final GoToBanned:Ljava/lang/String; = "Errors - View enforcement site"
+
+.field public static final GoToXboxCom:Ljava/lang/String; = "Errors - View Xbox.com"
+
+.field public static final Offline:Ljava/lang/String; = "Errors - Offline"
+
+.field public static final Retry:Ljava/lang/String; = "Errors - Try again"
+
+.field public static final RetryAccountCreation:Ljava/lang/String; = "Errors - Retry Account Creation"
+
+.field public static final RetrySignIn:Ljava/lang/String; = "Errors - Retry Signin"
+
+.field public static final RightButton:Ljava/lang/String; = "Errors - Ok"
+
+.field public static final SignOut:Ljava/lang/String; = "Errors - Signout"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method

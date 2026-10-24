@@ -1,0 +1,51 @@
+.class public final Lg77;
+.super Lsc6;
+.source "r8-map-id-21ef63d20ac644624de6f720e69c3009529494b67943a37c0f29f475e0af6e0c"
+
+# interfaces
+.implements Li77;
+
+
+# direct methods
+.method public constructor <init>(Landroid/os/IBinder;)V
+    .locals 2
+
+    .line 1
+    const-string v0, "com.google.android.gms.ads.internal.formats.client.INativeAdViewDelegateCreator"
+
+    .line 2
+    .line 3
+    const/4 v1, 0x4
+
+    .line 4
+    invoke-direct {p0, p1, v0, v1}, Lsc6;-><init>(Landroid/os/IBinder;Ljava/lang/String;B)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+.end method

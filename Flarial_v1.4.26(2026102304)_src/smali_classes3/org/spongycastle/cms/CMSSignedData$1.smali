@@ -1,0 +1,202 @@
+.class Lorg/spongycastle/cms/CMSSignedData$1;
+.super Ljava/lang/Object;
+.source "r8-map-id-21ef63d20ac644624de6f720e69c3009529494b67943a37c0f29f475e0af6e0c"
+
+# interfaces
+.implements Lorg/spongycastle/cms/CMSTypedData;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lorg/spongycastle/cms/CMSSignedData;-><init>(Lorg/spongycastle/cms/CMSProcessable;Lorg/spongycastle/asn1/cms/ContentInfo;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lorg/spongycastle/cms/CMSSignedData;
+
+.field final synthetic val$signedContent:Lorg/spongycastle/cms/CMSProcessable;
+
+
+# direct methods
+.method public constructor <init>(Lorg/spongycastle/cms/CMSSignedData;Lorg/spongycastle/cms/CMSProcessable;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lorg/spongycastle/cms/CMSSignedData$1;->this$0:Lorg/spongycastle/cms/CMSSignedData;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lorg/spongycastle/cms/CMSSignedData$1;->val$signedContent:Lorg/spongycastle/cms/CMSProcessable;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+.end method
+
+
+# virtual methods
+.method public final getContent()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lorg/spongycastle/cms/CMSSignedData$1;->val$signedContent:Lorg/spongycastle/cms/CMSProcessable;
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Lorg/spongycastle/cms/CMSProcessable;->getContent()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method
+
+.method public final getContentType()Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lorg/spongycastle/cms/CMSSignedData$1;->this$0:Lorg/spongycastle/cms/CMSSignedData;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lorg/spongycastle/cms/CMSSignedData;->signedData:Lorg/spongycastle/asn1/cms/SignedData;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0}, Lorg/spongycastle/asn1/cms/SignedData;->getEncapContentInfo()Lorg/spongycastle/asn1/cms/ContentInfo;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    invoke-virtual {p0}, Lorg/spongycastle/asn1/cms/ContentInfo;->getContentType()Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    return-object p0
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method
+
+.method public final write(Ljava/io/OutputStream;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Lorg/spongycastle/cms/CMSException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lorg/spongycastle/cms/CMSSignedData$1;->val$signedContent:Lorg/spongycastle/cms/CMSProcessable;
+
+    .line 2
+    .line 3
+    invoke-interface {p0, p1}, Lorg/spongycastle/cms/CMSProcessable;->write(Ljava/io/OutputStream;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+.end method
